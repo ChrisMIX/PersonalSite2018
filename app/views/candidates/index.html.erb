@@ -16,6 +16,7 @@
       <%= "#{can.score} people have said Yes!" %>
     <% @can = can %>
   <br>
+  <% #here we are deciding what button to show based on vote status %>
   <% if vote_status(current_user, @can) == "down" %>
     <button name="status" type="submit" value="up">
       <%= image_tag("upvote.png") %><%= hidden_field_tag 'can', @can.id %>

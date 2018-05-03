@@ -2,6 +2,8 @@ class VotesController < ApplicationController
   protect_from_forgery unless: -> { request.format.json? }
 
   def create
+    #here we are managing the voting. depending on whether or not we have voted, we create a vote object or simply change the vote status and candidate score
+
     candidate = Candidate.find(params[:can])
     user = User.find(params[:current_user])
     vote = Vote.where(user_id: user.id, candidate: candidate.id)[0]
