@@ -1,0 +1,28 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+h1 {
+    margin:0;
+}
+
+#heading{
+  background-color: #4573bc;
+  margin: 0;
+  color: red;
+  border-bottom: 3px solid #305185;
+}
+
+#heading a{
+  color: white;
+  text-decoration: none;
+}
+
+#logo{
+  font-size: 25px;
+  font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif
+}
+
+.nav_bar{
+  text-align: right;
+}
