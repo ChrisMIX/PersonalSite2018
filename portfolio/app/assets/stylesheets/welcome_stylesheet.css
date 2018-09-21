@@ -1,16 +1,18 @@
 html, body {
     margin:0;
     padding:0;
+    font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+    background-color: #F1EADA;
 }
 h1 {
     margin:0;
 }
 
 #heading{
-  background-color: #4573bc;
+  background-color: #1A6963;
   margin: 0;
   color: red;
-  border-bottom: 3px solid #305185;
+  border-bottom: 3px solid #10403c;
 }
 
 #heading a{
