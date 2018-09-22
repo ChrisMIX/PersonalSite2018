@@ -4,14 +4,9 @@ html, body {
     font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
     background-color: #F1EADA;
 }
-h1 {
-    margin:0;
-}
 
 #heading{
   background-color: #1A6963;
-  margin: 0;
-  color: red;
   border-bottom: 3px solid #10403c;
 }
 
@@ -20,11 +15,28 @@ h1 {
   text-decoration: none;
 }
 
+.nav_bar a:hover{
+  border-bottom: 1px solid red;
+}
+
 #logo{
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Avant Garde", "Avantgarde", "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif
 }
 
+#logo, .nav_bar{
+  display: inline;
+}
+
 .nav_bar{
-  text-align: right;
+  float: right;
+}
+
+#intro2{
+  border: 3px solid white;
+  border-radius: 15px;
+  width: 50%;
+  background-color: white;
+  text-align: left;
+  margin: auto;
 }
