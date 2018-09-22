@@ -30,6 +30,7 @@ html, body {
 
 .nav_bar{
   float: right;
+  vertical-align: top;
 }
 
 #intro2{
