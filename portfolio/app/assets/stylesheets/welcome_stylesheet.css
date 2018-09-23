@@ -56,10 +56,7 @@ html, body {
   display: inline;
 }
 
-#intro{
-
-}
-
 #social{
   text-align: center;
+  text-decoration: none;
 }
