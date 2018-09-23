@@ -35,9 +35,19 @@ html, body {
 
 #intro2{
   border: 3px solid white;
-  border-radius: 15px;
-  width: 50%;
+  border-radius: 5px;
   background-color: white;
-  text-align: left;
   margin: auto;
+}
+
+#portrait{
+  width: 500px;
+  height: auto;
+  border-radius: 5%;
+  float: left;
+  padding-right: 12px;
+}
+
+#intro{
+  display: inline-block;
 }
