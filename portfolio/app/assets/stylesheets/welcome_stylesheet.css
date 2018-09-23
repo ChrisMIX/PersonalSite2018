@@ -62,5 +62,6 @@ html, body {
 }
 
 form{
-  text-align: center;
+  padding-left: 10px;
+  text-align: left;
 }
