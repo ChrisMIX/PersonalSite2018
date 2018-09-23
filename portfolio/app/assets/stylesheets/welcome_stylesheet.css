@@ -40,7 +40,7 @@ html, body {
   width: 55%;
   margin: auto;
   float: right;
-  font-size: 16.5px;
+  font-size: 16px;
 }
 
 #portrait{
@@ -59,4 +59,9 @@ html, body {
 #social{
   text-align: center;
   text-decoration: none;
+}
+
+form{
+  padding-left: 10px;
+  text-align: left;
 }
