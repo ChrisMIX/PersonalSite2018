@@ -114,3 +114,23 @@ form{
   color: white;
   text-decoration: none;
 }
+
+.project img{
+  width: 80%;
+  margin-left: 25px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.5);
+}
+
+.project{
+  display: table-cell;
+}
+
+.project h3{
+  text-align: center;
+}
+
+.row{
+  display: table;
+  width: 100%;
+}
+
