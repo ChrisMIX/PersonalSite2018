@@ -1,3 +1,0 @@
-This is a code challenge that allows a user to create an account, login, and vote on various user profiles. Votes are tied to their account and added to the score of said user profile.
-
-The entire app was built in rails.
